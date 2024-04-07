@@ -74,7 +74,11 @@ elif c=='20,000 Meters':
   c=98
 elif c=='50 Meters':
   c=90
-else:
-  c=99 
+
+if st.button('Predict'):
+        prediction = predict(a, Dry_Bulb_Temperature, Wet_Bulb_Temperature, Dew_point_Temperature,Relative_Humidity,Vapour_Pressure,b,c)
+        interpretation = interpret_wind_speed(prediction)
+        st.header('Predicted Wind Speed: ' + str(prediction) + ' km/hr')
+        
 
 
