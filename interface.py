@@ -81,7 +81,7 @@ if st.button('Predict'):
         st.header('Predicted Wind Speed: ' + str(prediction) + ' km/hr')
 
 def predict(a, Dry_Bulb_Temperature, Wet_Bulb_Temperature, Dew_point_Temperature,Relative_Humidity,Vapour_Pressure,b,c)):
-    prediction = clf.predict([[a, Dry_Bulb_Temperature, Wet_Bulb_Temperature, Dew_point_Temperature,Relative_Humidity,Vapour_Pressure,b,c)]])
+    prediction = clf.predict([[a, Dry_Bulb_Temperature, Wet_Bulb_Temperature, Dew_point_Temperature,Relative_Humidity,Vapour_Pressure,b,c]])
     return int(prediction[0])
 
 
