@@ -59,4 +59,21 @@ elif b=='SSE':
   b=16
 else:
   a=25
+C=st.selectbox("SELECT THE Visiblity:",('10,000 Meters','4000 Meters','2000 Meters','500 Meters','1000 Meters','20,000 Meters',"50 Meters","50,000 Meters"))
+if c=='10,000 Meters':
+  c=97
+elif c=='4000 Meters':
+  c=96
+elif c=='2000 Meters':
+  c=95  
+elif c=='500 Meters':
+  c=93
+elif c=='1000 Meters':
+  c=94
+elif c=='20,000 Meters':
+  c=98
+elif c=='50 Meters':
+  c=90
+else:
+  c=99 
 
