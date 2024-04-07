@@ -23,5 +23,5 @@ Dry_Bulb_Temperature = st.number_input("Dry Bulb Temperature", min_value=0, max_
 Wet_Bulb_Temperature = st.number_input("Wet Bulb Temperature", min_value=0, max_value=100, value=0)
 Dew_point_Temperature = st.number_input("Dew point Temperature", min_value=0, max_value=100, value=0)
 Relative_Humidity=st.number_input("Relative Humidity", min_value=0, max_value=100, value=0)
-Vapour Pressure=st.number_input("Vapour Pressure", min_value=0, max_value=100, value=0)
+Vapour_Pressure=st.number_input("Vapour Pressure", min_value=0, max_value=100, value=0)
 
