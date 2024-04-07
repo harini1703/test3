@@ -24,4 +24,39 @@ Wet_Bulb_Temperature = st.number_input("Wet Bulb Temperature", min_value=0, max_
 Dew_point_Temperature = st.number_input("Dew point Temperature", min_value=0, max_value=100, value=0)
 Relative_Humidity=st.number_input("Relative Humidity", min_value=0, max_value=100, value=0)
 Vapour_Pressure=st.number_input("Vapour Pressure", min_value=0, max_value=100, value=0)
+b=st.selectbox("SELECT THE Wind Direction:",('Calm','NNW','NE','NW','WNW','NNE','ENE','N','Variable','E','SE','W','SW','S','ESE','SSE','WSW'))
+if b=='Calm':
+  b=0
+elif b=='NNW':
+  b=34
+elif b=='NE':
+  a=5
+elif b=='NW':
+  b=32
+elif b=='WNW':
+  b=29
+elif b=='NNE':
+  b=2
+elif b=='ENE':
+  b=7 
+elif b=='N':
+  b=36
+elif b=='Variable':
+  b=99
+elif b=='E':
+  b=9
+elif b=='SE':
+  b=14
+elif b=='W':
+  b=27
+elif b=='SW':
+  b=23
+elif b=='S':
+  b=18
+elif b=='ESE':
+  b=11
+elif b=='SSE':
+  b=16
+else:
+  a=25
 
